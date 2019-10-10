@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from "@angular/platform-browser";
+import { By } from '@angular/platform-browser';
 import { HomeComponent } from './home.component';
 import { MaterialModule } from 'src/app/shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -24,7 +24,7 @@ export class MatDialogMock {
 describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
-  let matDialog: MatDialog
+  let matDialog: MatDialog;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -72,13 +72,13 @@ describe('HomeComponent', () => {
   it('should check for the open dailog for login ', () => {
     fixture.detectChanges();
     component.openDialogLogin();
-    expect(matDialog.open).toBeTruthy()
+    expect(matDialog.open).toBeTruthy();
   });
 
   it('should check for the open dailog for login ', () => {
     fixture.detectChanges();
     component.openDialogRegister();
-    expect(matDialog.open).toBeTruthy()
+    expect(matDialog.open).toBeTruthy();
   });
 
 });

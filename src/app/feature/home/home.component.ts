@@ -16,12 +16,10 @@ export class HomeComponent implements OnInit {
   }
 
   openDialogLogin(): void {
-    console.log("openDialogLogin")
     const dialogRef = this.dialog.open(LoginComponent, {
       width: '450px',
     });
     dialogRef.afterClosed().subscribe(result => {
-
     });
   }
 
@@ -29,7 +27,6 @@ export class HomeComponent implements OnInit {
     const dialogRef = this.dialog.open(RegisterComponent, {
       width: '600px',
     });
-
     dialogRef.afterClosed().subscribe(result => {
     });
   }
