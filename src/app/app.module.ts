@@ -4,22 +4,29 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
 import { HomeComponent } from './feature/home/home.component';
+import { LoginComponent } from './feature/login/login.component';
+import { FormsModule } from '@angular/forms';
+import { RegisterComponent } from './feature/register/register.component';
+import { MaterialModule } from './shared/material.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    FormsModule,
+    MaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [LoginComponent , RegisterComponent]
 })
 export class AppModule { }

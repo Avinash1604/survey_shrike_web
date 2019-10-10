@@ -1,0 +1,8 @@
+
+$app-green-color: #00bf6f;
+$color-brand-green: (
+    50: $app-green-color,
+    contrast: (
+        50: white
+    )
+);

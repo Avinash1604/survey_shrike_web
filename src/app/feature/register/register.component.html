@@ -1,0 +1,25 @@
+<h3>Create a account</h3>
+<form class="register-form" #registerForm="ngForm">
+    <mat-form-field class="form-fields-full-width">
+        <input matInput placeholder="User Name" name="userName">
+    </mat-form-field>
+
+    <mat-form-field class="form-fields-full-width">
+        <input matInput placeholder="Password" type="password" name="password">
+    </mat-form-field>
+
+    <mat-form-field class="form-fields-full-width">
+        <input matInput placeholder="Email" name="email">
+    </mat-form-field>
+
+    <mat-form-field class="form-fields-full-width">
+        <input matInput placeholder="First name" name="email">
+    </mat-form-field>
+
+    <mat-form-field class="form-fields-full-width">
+        <input matInput placeholder="Last name" name="email">
+    </mat-form-field>
+
+    <div class="login-btn-container"><button mat-button mat-raised-button color="primary" class="login"
+            [disabled]="!registerForm.form.valid">Create Account</button></div>
+</form>

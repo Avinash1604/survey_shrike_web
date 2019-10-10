@@ -1,0 +1,40 @@
+@import "../../../variables";
+
+:host ::ng-deep {
+  .page {
+    /* The image used */
+    .image {
+      opacity: 0.3;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+    }
+    /* Full height */
+    height: 90%;
+
+    .container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .login-btn-container {
+      .login {
+        margin-right: 20px;
+        width: 200px;
+      }
+      .register {
+        width: 200px;
+      }
+    }
+  }
+
+  .header_title {
+    columns: #ffffff;
+  }
+}
