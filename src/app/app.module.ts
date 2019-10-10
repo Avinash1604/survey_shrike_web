@@ -9,7 +9,7 @@ import { LoginComponent } from './feature/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './feature/register/register.component';
 import { MaterialModule } from './shared/material.module';
-import { DashboardComponent } from './fetaure/dashboard/dashboard.component';
+import { DashboardModule } from './feature/dashboard/dashboard.module';
 
 
 @NgModule({
@@ -17,15 +17,15 @@ import { DashboardComponent } from './fetaure/dashboard/dashboard.component';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent,
-    DashboardComponent
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    MaterialModule
+    MaterialModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent],

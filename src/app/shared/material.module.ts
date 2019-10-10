@@ -54,7 +54,7 @@ import {
         MatSlideToggleModule,
         MatGridListModule,
         MatBadgeModule
-    ],
+        ],
     exports: [
         MatButtonModule,
         MatIconModule,
