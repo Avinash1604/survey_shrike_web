@@ -9,6 +9,7 @@ import { LoginComponent } from './feature/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './feature/register/register.component';
 import { MaterialModule } from './shared/material.module';
+import { DashboardComponent } from './fetaure/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MaterialModule } from './shared/material.module';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
