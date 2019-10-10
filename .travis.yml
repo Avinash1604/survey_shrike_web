@@ -22,6 +22,8 @@ script:
 - ng test --watch=false
 - ng build --prod --base-href https://Avinash1604.github.io/survey_shrike_web/
 
+after_success:
+- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 
 deploy:
   provider: pages
