@@ -1,4 +1,4 @@
-# SurveyShrikeWeb [![Build Status](https://travis-ci.org/Avinash1604/survey_shrike_web.svg?branch=master)](https://travis-ci.org/Avinash1604/survey_shrike_web)
+# SurveyShrikeWeb [![Build Status](https://travis-ci.org/Avinash1604/survey_shrike_web.svg?branch=master)](https://travis-ci.org/Avinash1604/survey_shrike_web)[![Coverage Status](https://coveralls.io/repos/github/Avinash1604/survey_shrike_web/badge.svg?branch=master)](https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
