@@ -72,4 +72,9 @@ describe('PreviewComponent', () => {
     component.done();
     expect(router.navigate).toHaveBeenCalledWith(['dashboardhome/createSurvey']);
   });
+  it('should send mail to user group', () => {
+    spyOn(window, 'alert');
+    component.sendToUser();
+    expect(window.alert).toHaveBeenCalledWith('This feaure will not be available now');
+  });
 });

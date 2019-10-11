@@ -20,9 +20,10 @@ export class PreviewComponent implements OnInit {
   ngOnInit() {
 
   }
-
   done() {
     this.router.navigate(['dashboardhome/createSurvey']);
   }
-
+  sendToUser() {
+    alert('This feaure will not be available now');
+  }
 }
