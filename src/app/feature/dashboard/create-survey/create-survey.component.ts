@@ -24,8 +24,15 @@ export class CreateSurveyComponent implements OnInit {
   userDetails: User;
   editMode = false;
   surveyTypes = [
-    { id: 0, value: 'Training' },
-    { id: 1, value: 'HR' }
+    { id: 1, value: 'Customer Feedback' },
+    { id: 2, value: 'HR' },
+    { id: 3, value: 'Education' },
+    { id: 4, value: 'Training' },
+    { id: 5, value: 'Events' },
+    { id: 6, value: 'Healthcare' },
+    { id: 7, value: 'Market Research' },
+    { id: 8, value: 'Quiz' },
+    { id: 9, value: 'Others' }
   ];
 
   questions: QuestionType[] = [
@@ -160,7 +167,6 @@ export class CreateSurveyComponent implements OnInit {
       survey.question.push(questionItem);
 
     });
-    console.log(survey);
     this.localStorageService.setSurveyData(survey);
     this.message.sendSurveyData(survey);
     this.router.navigate(['dashboardhome/preview']);
