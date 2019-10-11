@@ -4,17 +4,18 @@ SurveyShrike help businesses conduct surveys. SurveyShrike believes every custom
 
 SurveyShrike would require an authenticated user to create a survey by using below options
 
-Single Line Input
-Multiple Line Input
-Dropdown
-Select
-Radio
-File Upload
+1)Single Line Input
+2) Multiple Line Input
+3) Dropdown
+4) Select
+5) Radio
+6) File Upload
 
 # Build status and code coverage [![Build Status](https://travis-ci.org/Avinash1604/survey_shrike_web.svg?branch=master)](https://travis-ci.org/Avinash1604/survey_shrike_web)[![Coverage Status](https://coveralls.io/repos/github/Avinash1604/survey_shrike_web/badge.svg?branch=master)](https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master)
 
 Coverage:
 `https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master`
+
 Build:
 `https://travis-ci.org/Avinash1604/survey_shrike_web`
 
