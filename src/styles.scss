@@ -4,7 +4,7 @@
 
 @include mat-core();
 $custom-theme-primary: mat-palette($color-brand-green , 50);
-$alt-accent:  mat-palette($mat-grey, 200);
+$alt-accent:  mat-palette($color-brand-green, 200);
 $custom-theme: mat-light-theme($custom-theme-primary, $alt-accent);
 @include angular-material-theme($custom-theme);
 
