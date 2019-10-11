@@ -45,10 +45,11 @@ describe('LocalStorageService', () => {
   it('should set survey data and get it', () => {
     const service: LocalStorageService = TestBed.get(LocalStorageService);
     spyOn(localStorage, 'removeItem');
+    spyOn(localStorage, 'setItem');
     const user: User = {} as User;
     user.email = 'avinashnv2@gmail.com';
-    spyOn(localStorage, 'setItem');
     service.setSurveyData(survey);
+    service.getSurveyData(user.email);
     spyOn(service, 'getSurveyData').and.returnValue([survey]);
     expect(service.getSurveyData(user.email)).toEqual([survey]);
   });
@@ -60,8 +61,8 @@ describe('LocalStorageService', () => {
     const user: User = {} as User;
     user.email = 'avinashnv2@gmail.com';
     user.password = 'abcd';
-    console.log('service' + service);
     service.setLoginData(user);
+    service.getLoginData(user.email, user.password);
     spyOn(service, 'getLoginData').and.returnValue([user]);
     expect(service.getLoginData(user.email, user.password)).toEqual([user]);
   });
