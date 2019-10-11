@@ -16,7 +16,7 @@
             class="mat-sidenav">
 
             <mat-nav-list ui-sref-active="nav-active">
-                <a mat-list-item [routerLink]="['listOfUser']">
+                <a mat-list-item [routerLink]="['createSurvey']">
                     <div style="margin-right:10px">
                         <mat-icon class="material-icons color_green">supervisor_account
                         </mat-icon>
@@ -28,7 +28,7 @@
                 </a>
             </mat-nav-list>
             <mat-nav-list ui-sref-active="nav-active">
-                <a mat-list-item [routerLink]="['listadvertisement']">
+                <a mat-list-item [routerLink]="['mySurvey']">
                     <div style="margin-right:10px">
                         <mat-icon class="material-icons color_green">supervisor_account
                         </mat-icon>
@@ -40,7 +40,7 @@
                 </a>
             </mat-nav-list>
             <mat-nav-list>
-                <a mat-list-item (click)="logOut()">
+                <a mat-list-item  [routerLink]="['../home']">
                     <div style="margin-right:10px">
                         <mat-icon class="material-icons color_green">logout
                         </mat-icon>

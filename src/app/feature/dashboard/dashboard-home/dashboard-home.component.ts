@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-dashboard-home',
@@ -18,12 +18,8 @@ export class DashboardHomeComponent implements OnInit {
    }
 
   ngOnInit() {
-    //this.getUserInfo = JSON.parse(localStorage.getItem('adminInfo'));
-  }
-
-  
-  logOut(): void {
 
   }
+
 
 }
