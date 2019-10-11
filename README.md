@@ -14,10 +14,10 @@ SurveyShrike would require an authenticated user to create a survey by using bel
 # Build status and code coverage [![Build Status](https://travis-ci.org/Avinash1604/survey_shrike_web.svg?branch=master)](https://travis-ci.org/Avinash1604/survey_shrike_web)[![Coverage Status](https://coveralls.io/repos/github/Avinash1604/survey_shrike_web/badge.svg?branch=master)](https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master)
 
 Coverage:
-`https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master`
+(`https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master`)
 
 Build:
-`https://travis-ci.org/Avinash1604/survey_shrike_web`
+(`https://travis-ci.org/Avinash1604/survey_shrike_web`)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
@@ -44,11 +44,11 @@ Code deployment process is automated , used Travis CI to build and deploy when c
 
 Below are the task taken care by Travis :
 1) Clone project 
-2) check for lint issue 
-3) test case 
-4) coverage 
-Coverage used coveralls plugin , coverals dashboard will show details of overall coverage
-5) auto deployment to git hub pages 
+2) Check for lint issue 
+3) Test case 
+4) Coverage 
+ coveralls plugin used for the automate coverage , coverals dashboard will show details of overall coverage
+5) Auto deployment to git hub pages 
 
 ## Demo 
 
