@@ -4,20 +4,20 @@ SurveyShrike help businesses conduct surveys. SurveyShrike believes every custom
 
 SurveyShrike would require an authenticated user to create a survey by using below options
 
-1)Single Line Input
-2) Multiple Line Input
-3) Dropdown
-4) Select
-5) Radio
-6) File Upload
+* Single Line Input
+* Multiple Line Input
+* Dropdown
+* Select
+* Radio
+* File Upload
 
 # Build status and code coverage [![Build Status](https://travis-ci.org/Avinash1604/survey_shrike_web.svg?branch=master)](https://travis-ci.org/Avinash1604/survey_shrike_web)[![Coverage Status](https://coveralls.io/repos/github/Avinash1604/survey_shrike_web/badge.svg?branch=master)](https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master)
 
-Coverage:
-(`https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master`)
+## Coverage:
+(`https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master`) [coverage](https://coveralls.io/github/Avinash1604/survey_shrike_web?branch=master)
 
-Build:
-(`https://travis-ci.org/Avinash1604/survey_shrike_web`)
+## Build:
+(`https://travis-ci.org/Avinash1604/survey_shrike_web`) [build](https://travis-ci.org/Avinash1604/survey_shrike_web)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
@@ -47,17 +47,23 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Code deployment process is automated , used Travis CI to build and deploy when code is puhsed to master , 
 
 Below are the task taken care by Travis :
-1) Clone project 
-2) Check for lint issue 
-3) Test case 
-4) Coverage 
+* Clone project 
+* Check for lint issue 
+* Test case 
+* Coverage 
  coveralls plugin used for the automate coverage , coveralls dashboard will show details of overall coverage
-5) Auto deployment to git hub pages 
+* Auto deployment to git hub pages 
 
 ## Demo 
 
 Project is hosted in github pages by Travis CI , Please find a below link 
-`https://Avinash1604.github.io/survey_shrike_web/`
+`https://Avinash1604.github.io/survey_shrike_web/` [demo](https://Avinash1604.github.io/survey_shrike_web/)
+
+### How to use an application 
+Currently application is built with local storage , hence need to register when you swich your browser and then it will take you to the survey dashboard page.
+Survey dashboard , you can create customise survey and save it and preview it , next time login in it will be available , in my servey list .
+
+Note: There is no real server interaction so user related activity will be saved in local storage only . 
 
 ## Running end-to-end tests
 
