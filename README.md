@@ -51,7 +51,7 @@ Below are the task taken care by Travis :
 2) Check for lint issue 
 3) Test case 
 4) Coverage 
- coveralls plugin used for the automate coverage , coverals dashboard will show details of overall coverage
+ coveralls plugin used for the automate coverage , coveralls dashboard will show details of overall coverage
 5) Auto deployment to git hub pages 
 
 ## Demo 
