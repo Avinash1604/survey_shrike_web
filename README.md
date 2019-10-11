@@ -60,8 +60,8 @@ Project is hosted in github pages by Travis CI , Please find a below link
 `https://Avinash1604.github.io/survey_shrike_web/` [demo](https://Avinash1604.github.io/survey_shrike_web/)
 
 ### How to use an application 
-Currently application is built with local storage , hence need to register when you swich your browser and then it will take you to the survey dashboard page.
-Survey dashboard , you can create customise survey and save it and preview it , next time login in it will be available , in my servey list .
+Currently an application is built with local storage , hence need to register when you swich your browser and then it will take you to the survey dashboard page.
+Survey dashboard , you can create customize survey and save it and preview it , next time login in it will be available , in my survey list .
 
 Note: There is no real server interaction so user related activity will be saved in local storage only . 
 
