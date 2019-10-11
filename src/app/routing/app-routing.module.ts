@@ -6,6 +6,7 @@ import { DashboardHomeComponent } from '../feature/dashboard/dashboard-home/dash
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'dashboardhome', component: DashboardHomeComponent },
 ];
 
