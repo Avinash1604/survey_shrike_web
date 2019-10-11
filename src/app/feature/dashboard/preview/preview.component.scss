@@ -1,0 +1,29 @@
+:host ::ng-deep {
+  .full-width {
+    width: 70%;
+  }
+
+  .input-field {
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  .question-title {
+    margin-left: 5px;
+  }
+  .question-content {
+    margin: 10px;
+  }
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+
+  .radio-button-radio {
+    margin: 5px;
+  }
+  .done{
+      margin: 15px;
+  }
+}
